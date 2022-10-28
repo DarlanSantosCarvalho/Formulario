@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario com JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+
+    <div class="conteudo">
+
+        <div class="texto-informativo">
+            <h1>
+                FICOU COM DÚVIDA? <br>
+                NOS MANDE UMA MENSAGEM!
+            </h1>
+
+            <p>Caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de
+                24h.</p>
+        </div>
+
+
+        <div class="form">
+
+            <div class="inputs">
+
+                
+                <input type="text" name="nome" class="nome formulario" placeholder="Nome Completo *">
+                <p class="oculto vazio">Campo obrigatorio</p>
+
+                <input type="text" name="email" class="email formulario" placeholder="Email *">
+                <p class="oculto vazio">Campo obrigatorio</p>
+
+                <input type="text" name="telefone" class="telefone formulario" placeholder="Telefone *">
+                <p class="oculto vazio">Campo obrigatorio</p>
+
+                <textarea name="mensagem" class="formulario" cols="15" rows="10" placeholder="Deixe uma mensagem"></textarea>
+                <p class="oculto vazio">Campo obrigatorio</p>
+
+            </div>
+
+            <span class="aviso">*campos obrigatórios</span> <br>
+
+            <input type="submit" id="submit" value="Enviar" class="botao-enviar">
+
+        </div>
+
+    </div>
+
+
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>

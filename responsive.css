@@ -1,0 +1,48 @@
+@media (max-width: 768px) {
+  .conteudo {
+    flex-direction: column;
+  }
+
+  .texto-informativo {
+    margin-bottom: 40px;
+    font-size: 0.9rem;
+  }
+
+  .form {
+    height: 440px;
+  }
+
+  .inputs {
+    padding: 5px;
+    gap: 8px;
+  }
+
+  .nome,
+  .email,
+  .telefone {
+    padding: 10px;
+  }
+
+  textarea{
+    height: 120px;
+  }
+
+  .aviso {
+    font-size: 0.8rem;
+  }
+
+  .botao-enviar {
+    padding: 8px 40%;
+  }
+}
+
+@media (max-width: 425px){
+    .form{
+        width: 90%;
+    }
+
+    .texto-informativo{
+        font-size: 0.7rem;
+        text-align: center;
+    }
+}
